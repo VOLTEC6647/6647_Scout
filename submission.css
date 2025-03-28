@@ -1,0 +1,51 @@
+
+/* Center everything on the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f8ff; /* Light background color */
+    font-family: 'Manrope', sans-serif;
+}
+
+/* Frame styling */
+.submission-container {
+    text-align: center;
+    background: #ffffff; /* White background for the frame */
+    border: 2px solid #ccc; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    width: 80%;
+    max-width: 400px;
+}
+
+/* Button styling */
+.submit {
+    background-color: #0077b6; /* Blue background */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.submit:active {
+    background-color: #003f7f; /* Even darker blue on click */
+}
+
+.submission-container h1 {
+margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+.submission-container p {
+margin-bottom: 30px; /* Add spacing below the paragraph */
+}
